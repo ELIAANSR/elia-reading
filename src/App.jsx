@@ -76,7 +76,7 @@ const QUESTIONS = [
   // VOICE
   {
     dim: "voice",
-    text: "Your firm has a clear voice. Someone reading three paragraphs from your website, an email, and a proposal would recognise the same hand.",
+    text: "There is a clear voice in the firm. Someone reading three paragraphs from your website, an email, and a proposal would recognise the same hand.",
     options: [
       { text: "The voice depends entirely on who is writing", value: 0 },
       { text: "There is a voice, but only the founder produces it consistently", value: 1 },
@@ -85,7 +85,7 @@ const QUESTIONS = [
   },
   {
     dim: "voice",
-    text: "If someone outside the firm — a collaborator, an agency, an advisor — needed to write something on your behalf tomorrow, they would have a written reference for how your firm speaks.",
+    text: "If someone outside the firm, a collaborator, an agency, an advisor, needed to write something on your behalf tomorrow, they would have a written reference for how the firm speaks.",
     options: [
       { text: "There is no such reference", value: 0 },
       { text: "There are scattered guidelines but no codified voice", value: 1 },
@@ -94,7 +94,7 @@ const QUESTIONS = [
   },
   {
     dim: "voice",
-    text: "Your firm produces communications regularly — newsletters, posts, proposals, articles — without the founder being the bottleneck.",
+    text: "The firm produces communications regularly, newsletters, posts, proposals, articles, without the founder being the bottleneck.",
     options: [
       { text: "Almost everything goes through the founder", value: 0 },
       { text: "Some content is produced by others but quality varies", value: 1 },
@@ -104,7 +104,7 @@ const QUESTIONS = [
   // OPERATIONS
   {
     dim: "operations",
-    text: "You have identified the repetitive tasks in your firm — the work that consumes hours but does not require senior judgment.",
+    text: "You have identified the repetitive tasks in the firm. The work that consumes hours and does not require senior judgment.",
     options: [
       { text: "Never mapped this systematically", value: 0 },
       { text: "A general sense, no formal mapping", value: 1 },
@@ -113,16 +113,16 @@ const QUESTIONS = [
   },
   {
     dim: "operations",
-    text: "Some of these tasks are now handled by automation, AI, or workflows — not people.",
+    text: "Some of these tasks are now handled by automation, AI, or workflows.",
     options: [
       { text: "Everything still depends on a person", value: 0 },
       { text: "One or two automations exist", value: 1 },
-      { text: "Multiple automations run quietly in the background", value: 2 },
+      { text: "Multiple automations run in the background", value: 2 },
     ],
   },
   {
     dim: "operations",
-    text: "Your firm could continue to operate for two weeks without you, with no significant loss in quality or client experience.",
+    text: "The firm could continue operating for two weeks without you, with no meaningful loss in quality or client experience.",
     options: [
       { text: "It would degrade quickly", value: 0 },
       { text: "It would hold for a few days, then strain", value: 1 },
@@ -132,7 +132,7 @@ const QUESTIONS = [
   // CLIENT EXPERIENCE
   {
     dim: "client_experience",
-    text: "A new client's first sixty days with your firm follow a structured rhythm — not whatever the assigned person happens to do that week.",
+    text: "A new client's first sixty days with the firm follow a structured rhythm. The same rhythm regardless of who is handling them.",
     options: [
       { text: "Each onboarding is improvised", value: 0 },
       { text: "There is a pattern, but it depends on who is handling the client", value: 1 },
@@ -141,26 +141,26 @@ const QUESTIONS = [
   },
   {
     dim: "client_experience",
-    text: "You adapt the experience to the specific client — their history, their preferences, the moment they are in — without it becoming manual labour for your team.",
+    text: "You adapt the experience to the specific client, their history, their preferences, the moment they are in, without it becoming manual labour for the team.",
     options: [
       { text: "Personalisation is either heavy lifting or absent", value: 0 },
       { text: "Some personalisation, ad hoc", value: 1 },
-      { text: "Personalisation is structured and runs with grace", value: 2 },
+      { text: "Personalisation is structured and runs without manual labour", value: 2 },
     ],
   },
   {
     dim: "client_experience",
-    text: "You measure the relationship with each significant client over time — not just transactions, but the quality of the relationship itself.",
+    text: "You measure the relationship with each significant client over time. The quality of it, not only the transactions.",
     options: [
       { text: "No measurement beyond transactional data", value: 0 },
       { text: "Intuition without instruments", value: 1 },
-      { text: "Both — instinct supported by signals", value: 2 },
+      { text: "Both. Instinct supported by signals", value: 2 },
     ],
   },
   // TEAM
   {
     dim: "team",
-    text: "The people in your firm understand how to use AI tools or modern digital instruments in their role — not as a curiosity, as a normal part of their work.",
+    text: "The people in the firm use AI tools and modern digital instruments as a normal part of their work.",
     options: [
       { text: "Almost no one", value: 0 },
       { text: "One or two early adopters", value: 1 },
@@ -169,7 +169,7 @@ const QUESTIONS = [
   },
   {
     dim: "team",
-    text: "Decisions, processes, and standards are documented enough that your team can execute without checking with you on most things.",
+    text: "Decisions, processes, and standards are documented enough that the team can execute most things without checking with you.",
     options: [
       { text: "Most things require the founder", value: 0 },
       { text: "Documented but inconsistently followed", value: 1 },
@@ -178,7 +178,7 @@ const QUESTIONS = [
   },
   {
     dim: "team",
-    text: "You invest regularly in your team's literacy with the new instruments of the decade — not just craft, but the systems that surround craft.",
+    text: "Your team is trained continuously in the tools and systems that surround their craft, including AI and digital workflows.",
     options: [
       { text: "No structured investment", value: 0 },
       { text: "Occasional, reactive", value: 1 },
@@ -188,7 +188,7 @@ const QUESTIONS = [
   // DATA & MEMORY
   {
     dim: "data_memory",
-    text: "The intelligence about each client — their history, their conversations, their preferences, their context — lives in one accessible place. Not in scattered notes, emails, and heads.",
+    text: "The intelligence about each client, their history, conversations, preferences, and context, lives in one accessible place.",
     options: [
       { text: "It is scattered", value: 0 },
       { text: "Partial, fragmented across systems", value: 1 },
@@ -197,7 +197,7 @@ const QUESTIONS = [
   },
   {
     dim: "data_memory",
-    text: "Your firm has a written archive of how it works — its protocols, its standards, its refusals, its quiet excellences. Not just a CRM. The character of the firm, written down.",
+    text: "The working knowledge of the firm is written down. Protocols, standards, refusals, the way decisions get made.",
     options: [
       { text: "Most of it lives in heads", value: 0 },
       { text: "Some written, much remembered", value: 1 },
@@ -206,7 +206,7 @@ const QUESTIONS = [
   },
   {
     dim: "data_memory",
-    text: "Your data — client, operational, communicational — is structured well enough that an AI tool could be trained on it tomorrow without months of preparation.",
+    text: "The firm's data, client, operational, and content, is structured well enough that an AI tool could be trained on it tomorrow without months of preparation.",
     options: [
       { text: "Far from it", value: 0 },
       { text: "Some parts are usable", value: 1 },
@@ -218,22 +218,22 @@ const QUESTIONS = [
 // ── Maturity Bands ──
 const BANDS = {
   "FOUNDER-HELD": {
-    range: "0  —  15  /  50",
+    range: "0 to 15  /  50",
     name: "Founder-Held",
     description: "The maison runs through you. When you pause, it pauses.",
   },
   EXPOSED: {
-    range: "16  —  25  /  50",
+    range: "16 to 25  /  50",
     name: "Exposed",
-    description: "Patterns exist. Nothing yet holds without you. The most common, and the most easily missed.",
+    description: "Patterns exist. Nothing yet holds without you. Easy to miss, because the firm still functions.",
   },
   ARCHITECTED: {
-    range: "26  —  35  /  50",
+    range: "26 to 35  /  50",
     name: "Architected",
     description: "Systems are forming. AI becomes a multiplier on real foundations.",
   },
   "SIGNATURE-READY": {
-    range: "36  —  50  /  50",
+    range: "36 to 50  /  50",
     name: "Signature-Ready",
     description: "Rare. The conversation is no longer about catching up.",
   },
@@ -244,17 +244,17 @@ const ARCHETYPES = {
   "FOUNDER-HELD": {
     number: "01",
     name: "The Founder-Held Firm.",
-    pattern: "All dimensions weak — most scores 0 to 2 out of 6. Nothing yet structured.",
+    pattern: "All dimensions weak. Most scores 0 to 2 out of 6. Nothing yet structured.",
     color: "#8B7355",
-    archetype: "The firm runs through you. The voice in the room is your voice. The standards are your standards. The intelligence about each client lives in your head, in your inbox, and in the heads of two or three trusted people. Nothing is written down, and nothing yet holds without you. This is the most common pattern in expert-led firms in their first or second decade. Advisory, law, wealth, watchmakers, creative ateliers. You are not behind. You are at the beginning of structure. The next ten years will ask more of the firm than the last ten did, and the founder cannot carry it the same way alone.",
+    archetype: "The firm runs through you. The voice in the room is your voice. The standards are your standards. The intelligence about each client lives in your head, in your inbox, and in the heads of two or three trusted people. Nothing is written down, and nothing yet holds without you. This is the most common pattern in expert-led firms in their first or second decade. Advisory, law, wealth, watchmakers, creative ateliers. This is the natural state at the beginning of structure. The next ten years will ask more of the firm than the last ten did, and the founder cannot carry it the same way alone.",
     whereYouStand: "The founders we read in this archetype are usually the ones doing the most ambitious work, and carrying the most. The craft is real. The relationships are deep. The clients are with you because of who you are and how you work. The exposure is also clear. When you take a week off, the firm pauses. When a senior person leaves, a year of unwritten judgment walks out the door. AI cannot be introduced into a firm whose voice lives in heads and whose archive lives in inboxes. The instruments need a foundation, and the foundation comes first.",
     recommendedFirstMove: "Begin with structure before voice. Document the work. The protocols, the refusals, the rituals of welcome. Codify the standards. Write down what only you remember. Three months of this work, done well, transforms what AI can do for the firm in the twelve months that follow.",
-    aiInYourHouseIntro: "Three concrete moves for a Founder-Held Firm. Each begins with the work the firm has not yet done — codifying, documenting, structuring — and uses AI to make that work three times faster.",
+    aiInYourHouseIntro: "Three concrete moves for a Founder-Held Firm. Each begins with the work the firm has not yet done. Codifying, documenting, structuring. AI makes that work three times faster than doing it alone.",
     useCases: [
       {
         title: "Founder Voice Codification",
         description: "An editorial document of fifteen to twenty-five pages that captures your voice across registers. Client communications, proposals, marketing, internal team notes. Built from analysis of fifty to a hundred past communications, refined through founder interviews. Once written, it becomes the reference any team member, agency, or AI tool uses to write in the firm's voice. Three to four weeks. Immediate use across all communications from week four.",
-        ifNothingChanges: "Without a codified voice, every team member writes slightly differently. The firm's distinctiveness erodes silently over months. By the time you notice, it is too late to reverse.",
+        ifNothingChanges: "Without a codified voice, every team member writes slightly differently. The firm's distinctiveness erodes over months without anyone pointing at it. By the time you notice, it is too late to reverse.",
       },
       {
         title: "The Atelier Memory",
@@ -263,7 +263,7 @@ const ARCHETYPES = {
       },
       {
         title: "Client Intelligence",
-        description: "A unified view of every significant client across email, CRM, calendar, and notes. Past conversations summarised, preferences captured, history visualised. Senior team members prep for client meetings in five minutes instead of thirty. Clients feel known across the firm, not just by you. Three to four weeks to set up. Compounding value from month two.",
+        description: "A unified view of every significant client across email, CRM, calendar, and notes. Past conversations summarised, preferences captured, history visualised. Senior team members prep for client meetings in five minutes instead of thirty. Clients feel known by the whole firm. Three to four weeks to set up. Compounding value from month two.",
         ifNothingChanges: "Without it, every senior client feels personally known by you and managed by guesswork by everyone else. The relationship's depth is mortgaged to your bandwidth, and your bandwidth has a ceiling.",
       },
     ],
@@ -273,10 +273,10 @@ const ARCHETYPES = {
     name: "The Voice-Forward Firm.",
     pattern: "Voice strong (4 or higher out of 6). Data and Memory weak (2 or lower out of 6).",
     color: "#A07850",
-    archetype: "The firm has identity. Anyone reading three of your communications recognises the same hand. The voice is codified, perhaps even on paper. Your team can write something acceptable in your name. But the intelligence about each client, the part that makes the relationship valuable, lives in scattered notes, old emails, and fragments of memory. When a senior person leaves, the character of the firm holds. The knowledge does not. The voice is built. The memory is not.",
-    whereYouStand: "The Voice-Forward Firm is where most strong founders arrive after eight or ten years of building the brand on purpose. The trap is to assume that because the voice is strong, the firm is strong. When AI tools enter a firm with strong voice and weak memory, the output is the same. The communications sound right. The intelligence behind them is patchwork. Clients feel the gap. The firm sounds consistent across the year, but the relationship feels improvised inside each meeting. The next decade rewards firms whose memory is as codified as their voice.",
-    recommendedFirstMove: "Build the memory of the firm. The archive of how you work. What you accept, what you refuse, what you have decided about each client over the years. This is not a CRM. It is a structured memory layer that AI can train on without months of preparation.",
-    aiInYourHouseIntro: "Three concrete moves for a Voice-Forward Firm. Each takes the rare asset you already have — a codified voice — and turns it into an instrument that scales, while building the memory layer the strong voice has been compensating for.",
+    archetype: "The firm has identity. Anyone reading three of your communications recognises the same hand. The voice is codified, perhaps even on paper. Your team can write something acceptable in your name. But the intelligence about each client, the part that makes the relationship valuable, lives in scattered notes, old emails, and fragments of memory. When a senior person leaves, the character of the firm holds while the knowledge walks out with them. The voice is built. The memory is not.",
+    whereYouStand: "The Voice-Forward Firm is where most strong founders arrive after eight or ten years of building the brand on purpose. The trap is to assume that because the voice is strong, the firm is strong. When AI tools enter a firm with strong voice and weak memory, the communications come out polished but the intelligence behind them is patchwork. Clients feel the gap. The firm sounds consistent across the year, but the relationship feels improvised inside each meeting. The next decade rewards firms whose memory is as codified as their voice.",
+    recommendedFirstMove: "Build the memory of the firm. The archive of how you work. What you accept, what you refuse, what you have decided about each client over the years. What you need is a structured memory layer. Different from a CRM, and AI can train on it without months of preparation.",
+    aiInYourHouseIntro: "Three concrete moves for a Voice-Forward Firm. Each one takes the rare asset you already have, a codified voice, and turns it into an instrument the team can use, while building the memory layer the strong voice has been compensating for.",
     useCases: [
       {
         title: "The Brand Voice Engine",
@@ -285,13 +285,13 @@ const ARCHETYPES = {
       },
       {
         title: "The Memory Layer",
-        description: "A structured archive that unifies client intelligence — meetings, emails, decisions, preferences, history — into a queryable system. The team can ask, what did we agree with this client last March about that topic, and receive a precise answer. Memory becomes the firm's quiet asset. Four to six weeks to build. Compounding value from month three.",
-        ifNothingChanges: "Voice without memory feels hollow to clients. The communications sound polished, the relationship feels improvised. Returning clients feel managed, not remembered. The pattern is invisible to the firm and obvious to the client.",
+        description: "A structured archive that unifies client intelligence, meetings, emails, decisions, preferences, history, into a queryable system. The team can ask, what did we agree with this client last March about that topic, and receive a precise answer. Memory becomes one of the firm's strongest assets, even if nobody talks about it. Four to six weeks to build. Compounding value from month three.",
+        ifNothingChanges: "Voice without memory feels hollow to clients. Returning clients feel managed, not remembered. The pattern is invisible to the firm and obvious to the client.",
       },
       {
-        title: "Editorial Production at Scale",
+        title: "Editorial Production Without the Bottleneck",
         description: "A workflow that produces the firm's articles, newsletters, and thought leadership at three to five times the current cadence, without changing the editorial standard. You record voice notes, AI drafts in the firm's voice, your editor refines, you approve. The bottleneck is removed. Two to three weeks to build. Three-fold output increase from month two.",
-        ifNothingChanges: "Without it, your firm's editorial output stays bound to your personal capacity. Competitors with weaker voice and better systems out-publish you, and AI search engines reward the firms whose archive is deepest, not the firms whose voice is strongest.",
+        ifNothingChanges: "Without it, your firm's editorial output stays bound to your personal capacity. Competitors with weaker voice and better systems out-publish you. AI search engines reward the firms whose archive is deepest, regardless of how strong the voice is.",
       },
     ],
   },
@@ -300,24 +300,24 @@ const ARCHETYPES = {
     name: "The Operationally Mature Firm.",
     pattern: "Operations and Data strong (4 or higher out of 6 each). Voice weak (2 or lower out of 6).",
     color: "#7A8B6B",
-    archetype: "The firm runs cleanly. Processes are tight. Data is structured. The team executes without you in the room. Onboarding follows a rhythm. Information lives in systems, not in heads. By most measures the firm is in good shape. But there is no codified voice, and the client experience, efficient and capable as it is, feels indistinguishable from a dozen other competent firms in your category. The logistics are built. The identity is not.",
+    archetype: "The firm runs cleanly. Processes are tight. Data is structured. The team executes without you in the room. Onboarding follows a rhythm. Information lives in systems where the team can find it. By most measures the firm is in good shape. But there is no codified voice, and the client experience, efficient and capable as it is, feels indistinguishable from a dozen other competent firms in your category. The logistics are in place. What is missing is what makes the firm specifically itself.",
     whereYouStand: "Operationally Mature firms often grew by adding structure faster than they refined character. The danger in the next ten years is specific. When AI search engines become how serious clients find premium firms, the operational firm without a distinctive voice becomes invisible in the answer. The well-run firm without a recognisable hand sounds like every other well-run firm. Voice is no longer optional. It is the work that gives the rest its return.",
     recommendedFirstMove: "Codify the voice, then redesign the client experience around it. The Manifesto and Voice work, three to four weeks done well, gives the firm a recognisable register that the existing operational excellence can finally carry.",
-    aiInYourHouseIntro: "Three concrete moves for an Operationally Mature Firm. The infrastructure is already there. The signature is what compounds. AI here is the layer that turns operational excellence into editorial distinctiveness.",
+    aiInYourHouseIntro: "Three concrete moves for an Operationally Mature Firm. The infrastructure is already in place, and the work now is to build the signature on top of it. AI is the layer that turns operational excellence into editorial distinctiveness.",
     useCases: [
       {
         title: "The Manifesto and Voice Codification",
         description: "A four-week intensive that extracts the firm's actual voice from its operational artefacts. Proposals, internal memos, client communications, founder interviews. The voice is codified into a transmissible editorial register. The firm discovers its voice was already there, hidden in the work. Three to four weeks. Voice deployable across firm from week five.",
-        ifNothingChanges: "Without codified voice, every well-run firm in your category sounds the same. Premium pricing erodes within twenty-four months as clients can no longer distinguish based on capability, only on character.",
+        ifNothingChanges: "Without codified voice, every well-run firm in your category sounds the same. Premium pricing erodes within twenty-four months as clients can no longer distinguish one firm from another by character alone.",
       },
       {
         title: "The Signature Digital Product",
-        description: "A bespoke client-facing instrument that becomes the firm's editorial signature. A proposal generator that produces proposals in the firm's newly codified voice. A private client portal with AI-powered document assistance. A visualisation tool that lets clients explore scenarios in the firm's aesthetic. Six to twelve weeks to build. Becomes the firm's competitive moat.",
+        description: "A bespoke client-facing instrument that becomes the firm's editorial signature. A proposal generator that produces proposals in the firm's newly codified voice. A private client portal with AI-powered document assistance. A visualisation tool that lets clients explore scenarios in the firm's aesthetic. Six to twelve weeks to build. Becomes what makes the firm hard to replace.",
         ifNothingChanges: "Without a signature instrument, your firm's operational excellence is matched by any well-run competitor within eighteen months. The advantage that took a decade to build is replicated by AI in less than two years.",
       },
       {
         title: "The Internal AI Concierge",
-        description: "An always-on assistant for the team, trained on the firm's archive, voice, and operational standards. Senior team members ask anything, the assistant answers in the firm's register, drawing from past decisions and current data. Reduces meeting time, accelerates onboarding, captures firm knowledge. Three to four weeks. Productivity uplift measurable from week five.",
+        description: "An always-on assistant for the team, trained on the firm's archive, voice, and operational standards. Senior team members ask anything, the assistant answers in the firm's register, drawing from past decisions and current data. Reduces meeting time, accelerates onboarding, captures firm knowledge. Three to four weeks. Time savings measurable from week five.",
         ifNothingChanges: "Without it, the firm's accumulated knowledge stays trapped in the heads of senior people who eventually leave or retire. Every new hire starts at zero. The firm's twenty years of decisions cannot be queried.",
       },
     ],
@@ -327,10 +327,10 @@ const ARCHETYPES = {
     name: "The Balanced Firm.",
     pattern: "All dimensions within one point of each other. No extreme strength or weakness.",
     color: "#5B7A7A",
-    archetype: "The firm has good instincts across every dimension. The voice exists. Some operations are documented. Clients are reasonably tracked. The team is engaged. The firm is not exceptional anywhere, and not broken anywhere either. You have read the signals, you have made small experiments, you have tried tools. The firm has options, and that is exactly the difficulty. Optionality without commitment is indecision. The next move is not about awareness. It is about choosing one priority and executing it well, before the window closes and balance becomes a disadvantage.",
+    archetype: "The firm has good instincts across every dimension. The voice exists. Some operations are documented. Clients are reasonably tracked. The team is engaged. The firm sits in the middle on every dimension. You have read the signals, you have made small experiments, you have tried tools. The firm has options, and that is exactly the difficulty. Optionality without commitment is indecision. The next move is to choose one priority and execute it well, before the window closes and balance becomes a disadvantage.",
     whereYouStand: "The Balanced Firm is the most delicate of the four archetypes. Strong founders in this position often resist committing to a direction because every dimension feels manageable as it is. The eighteen-month window will close on the firms that delayed the choice. The firms that move now, even on a single priority, will compound a lead that the still-balanced firms cannot catch by 2027.",
     recommendedFirstMove: "The Diagnostic. Choose one priority, the one that will compound into the next four. The Balanced Firm needs commitment more than capacity. The work begins with a written reading and an honest conversation about what to do first.",
-    aiInYourHouseIntro: "For the Balanced Firm, the first move is not technical. It is strategic. Choose the dimension that, when developed deeply, would most amplify the firm's existing position. Then commit. Below are three moves, depending on which dimension you choose.",
+    aiInYourHouseIntro: "For the Balanced Firm, the first move is strategic before it is technical. Choose the dimension that, when developed deeply, would most amplify the firm's existing position. Then commit. Below are three moves, depending on which dimension you choose.",
     useCases: [
       {
         title: "If you choose Voice  ·  The Brand Voice Engine",
@@ -339,13 +339,13 @@ const ARCHETYPES = {
       },
       {
         title: "If you choose Memory  ·  The Memory Infrastructure",
-        description: "Build the memory layer that lets the firm compound client intelligence over time. The Balanced Firm's middling data becomes a strategic asset within ninety days. The team operates on shared knowledge instead of individual heads. Four to six weeks to build.",
+        description: "Build the memory layer that lets the firm compound client intelligence over time. The Balanced Firm's middling data becomes a strategic asset within ninety days. The team operates on shared institutional knowledge. Four to six weeks to build.",
         ifNothingChanges: "Without a memory infrastructure, every senior departure resets institutional learning. The firm pays the cost of repeated mistakes that a memory layer would have prevented. By the time you measure the loss, the years are gone.",
       },
       {
         title: "If you choose Client Experience  ·  The Signature Move",
         description: "Build a signature digital product that becomes the firm's category-defining instrument. The Balanced Firm's middling experience becomes the experience competitors try to match. Six to twelve weeks to build. Becomes the firm's signature instrument for the decade.",
-        ifNothingChanges: "Without a signature, the Balanced Firm remains interchangeable with every well-run competitor in its category. As AI matures, every competitor catches up on the dimensions you have not committed to. The firm's pricing power erodes invisibly until it is gone.",
+        ifNothingChanges: "Without a signature, the Balanced Firm remains interchangeable with every well-run competitor in its category. As AI matures, every competitor catches up on the dimensions you have not committed to. The firm's pricing power erodes year by year until it is gone.",
       },
     ],
   },
@@ -354,8 +354,8 @@ const ARCHETYPES = {
 // ── Shared Manifesto ──
 const MANIFESTO_PARAGRAPHS = [
   "The window is roughly eighteen months. After that, the firms that have moved will compound an advantage the others cannot catch. Today, AI is mostly being used to retrieve information. Few firms are using it to build, to codify, to improve the work itself, which is exactly where the return is.",
-  "This is not a software problem. It is a strategic one. A serious approach considers four things together. The voice of the firm. The people who carry it. The governance that protects it. The workflows that hold it.",
-  "Be careful of providers selling technical solutions alone. The technology is at the service of the firm, not the other way around. The opportunity is short, and it rewards firms that move with both clarity and craft.",
+  "This is a strategic problem at heart. The software is downstream. A serious approach considers four things together. The voice of the firm. The people who carry it. The governance that protects it. The workflows that hold it.",
+  "Be careful of providers selling technical solutions alone. The technology should serve the firm. The opportunity is short, and it rewards firms that move with both clarity and craft.",
 ];
 
 // ── Calendly invitation ──
@@ -436,8 +436,7 @@ function IntroScreen({ onStart }) {
   useEffect(() => { setTimeout(() => setVis(true), 10); }, []);
   return (
     <div style={{ opacity: vis ? 1 : 0, transition: "opacity 0.6s ease", textAlign: "center", padding: "80px 24px", maxWidth: 580, margin: "0 auto", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", minHeight: "100vh" }}>
-      <p style={{ fontFamily: T.fonts.display, fontSize: 28, fontWeight: 400, color: T.text, letterSpacing: "0.35em", marginBottom: 16 }}>ELIA</p>
-      <p style={{ fontFamily: T.fonts.display, fontSize: 14, color: T.accent, letterSpacing: "0.3em", textTransform: "uppercase", marginBottom: 40, fontWeight: 300 }}>Atelier</p>
+      <img src="/elia-atelier-logo.png" alt="ELIA Atelier" style={{ width: "auto", height: "auto", maxWidth: 220, maxHeight: 150, marginBottom: 32, objectFit: "contain" }} />
       <div style={{ width: 40, height: 1, background: T.accent, margin: "0 auto 40px", opacity: 0.6 }} />
       <div style={{ marginBottom: 48 }}>
         <span style={{ fontFamily: T.fonts.display, fontSize: "clamp(40px, 8vw, 56px)", fontWeight: 300, color: T.text, letterSpacing: "0.04em", fontStyle: "italic" }}>The Reading</span>
@@ -446,7 +445,7 @@ function IntroScreen({ onStart }) {
         A reading of your firm at the threshold<br />of the exponential age.
       </p>
       <p style={{ fontFamily: T.fonts.body, fontSize: 15, color: T.textMuted, lineHeight: 1.8, marginBottom: 48, maxWidth: 460 }}>
-        Fifteen questions across five dimensions.<br />A few minutes of attention.<br /><br />It is not a sales tool. It is a first conversation with yourself, written down.
+        Fifteen questions. Five dimensions. About fifteen minutes of attention.
       </p>
       <button onClick={onStart} style={{ fontFamily: T.fonts.display, fontSize: 15, letterSpacing: "0.15em", textTransform: "uppercase", background: T.accent, border: "none", color: "#FFFFFF", padding: "16px 48px", cursor: "pointer", transition: "all 0.4s ease", borderRadius: 2 }}
         onMouseEnter={(e) => { e.target.style.background = T.accentBright; }}
@@ -466,10 +465,10 @@ function SettleScreen({ onReady }) {
       <p style={{ fontFamily: T.fonts.display, fontSize: 28, fontWeight: 400, color: T.text, letterSpacing: "0.4em", marginBottom: 12 }}>ELIA</p>
       <div style={{ width: 32, height: 1, background: T.accent, marginBottom: 40, opacity: 0.5 }} />
       <p style={{ fontFamily: T.fonts.body, fontSize: 17, color: T.text, lineHeight: 1.9, marginBottom: 32, fontStyle: "italic" }}>
-        Find a quiet moment.<br />This works best when you are alone with the firm.
+        Take a moment for yourself.<br />Answer for the firm as it is today.
       </p>
       <p style={{ fontFamily: T.fonts.body, fontSize: 15, color: T.textMuted, lineHeight: 1.8, marginBottom: 60 }}>
-        Answer from where the firm actually is, not where you wish it were.<br />There are no right answers. Only honest ones.
+        There are no right answers. Only honest ones.
       </p>
       <button onClick={onReady} style={{ fontFamily: T.fonts.display, fontSize: 15, letterSpacing: "0.12em", background: T.warmWhite, border: "none", color: T.warmCharcoal, padding: "16px 48px", cursor: "pointer", transition: "all 0.4s ease" }}
         onMouseEnter={(e) => { e.target.style.background = "#FFFFFF"; }}
@@ -535,7 +534,7 @@ function EmailScreen({ onSubmit }) {
   const [vis, setVis] = useState(false);
   useEffect(() => { setTimeout(() => setVis(true), 200); }, []);
   const inputStyle = { fontFamily: T.fonts.body, fontSize: 15, background: T.warmWhite, border: `1px solid rgba(220,215,200,0.4)`, color: T.warmCharcoal, padding: "15px 16px", width: "100%", outline: "none", boxSizing: "border-box", borderRadius: 3, transition: "border-color 0.3s ease" };
-  const ready = name.trim() && email.trim() && firm.trim();
+  const ready = name.trim() && email.trim();
   return (
     <div style={{ display: "flex", alignItems: "center", justifyContent: "center", minHeight: "100vh", padding: "40px 24px" }}>
       <div style={{ opacity: vis ? 1 : 0, transition: "opacity 0.8s ease", textAlign: "center", padding: "48px 32px", maxWidth: 460, width: "100%" }}>
@@ -552,6 +551,9 @@ function EmailScreen({ onSubmit }) {
           <input type="text" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} style={inputStyle} onFocus={(e) => { e.target.style.borderColor = T.accent; }} onBlur={(e) => { e.target.style.borderColor = "rgba(220,215,200,0.4)"; }} autoComplete="name" />
           <input type="email" placeholder="Your email" value={email} onChange={(e) => setEmail(e.target.value)} style={inputStyle} onFocus={(e) => { e.target.style.borderColor = T.accent; }} onBlur={(e) => { e.target.style.borderColor = "rgba(220,215,200,0.4)"; }} autoComplete="email" />
           <input type="text" placeholder="Your firm" value={firm} onChange={(e) => setFirm(e.target.value)} style={inputStyle} onFocus={(e) => { e.target.style.borderColor = T.accent; }} onBlur={(e) => { e.target.style.borderColor = "rgba(220,215,200,0.4)"; }} autoComplete="organization" />
+          <p style={{ fontFamily: T.fonts.body, fontSize: 12, color: T.textDim, marginTop: -4, marginBottom: 0, textAlign: "left", paddingLeft: 4, fontStyle: "italic" }}>
+            Optional. Leave blank if you would rather not say.
+          </p>
         </div>
         <button onClick={() => { if (ready) onSubmit(name.trim(), email.trim(), firm.trim()); }} style={{ fontFamily: T.fonts.display, fontSize: 15, letterSpacing: "0.12em", textTransform: "uppercase", background: T.accent, border: "none", color: "#FFFFFF", padding: "15px 40px", cursor: ready ? "pointer" : "default", transition: "all 0.3s ease", width: "100%", opacity: ready ? 1 : 0.35, borderRadius: 2 }}
           onMouseEnter={(e) => { if (ready) e.target.style.background = T.accentBright; }}
@@ -561,6 +563,54 @@ function EmailScreen({ onSubmit }) {
         <p style={{ fontFamily: T.fonts.body, fontSize: 12, color: T.textDim, marginTop: 20 }}>
           Your data is confidential. We do not share it. Ever.
         </p>
+      </div>
+    </div>
+  );
+}
+
+// ── Reflection Screen (optional open-ended question after Q15) ──
+function ReflectionScreen({ onComplete }) {
+  const [reflection, setReflection] = useState("");
+  const [vis, setVis] = useState(false);
+  useEffect(() => { setTimeout(() => setVis(true), 200); }, []);
+  return (
+    <div style={{ opacity: vis ? 1 : 0, transition: "opacity 0.8s ease", padding: "60px 24px", maxWidth: 580, margin: "0 auto", minHeight: "100vh", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+      <p style={{ fontFamily: T.fonts.display, fontSize: 20, fontWeight: 400, color: T.text, letterSpacing: "0.35em", textAlign: "center", marginBottom: 40 }}>ELIA</p>
+      <p style={{ fontFamily: T.fonts.ui, fontSize: 12, color: T.accent, letterSpacing: "0.18em", textTransform: "uppercase", textAlign: "center", marginBottom: 20, fontWeight: 500 }}>
+        One last question  ·  Optional
+      </p>
+      <p style={{ fontFamily: T.fonts.body, fontSize: 15, color: T.textMuted, fontStyle: "italic", textAlign: "center", lineHeight: 1.7, marginBottom: 36 }}>
+        Sometimes the question that matters most is the one nobody has asked you yet.
+      </p>
+      <h2 style={{ fontFamily: T.fonts.body, fontSize: "clamp(18px, 3.2vw, 22px)", color: T.text, fontWeight: 400, lineHeight: 1.7, marginBottom: 28, fontStyle: "italic", textAlign: "center" }}>
+        What is the one thing in your firm right now that costs you the most? In time, in money, or in attention.
+      </h2>
+      <textarea
+        value={reflection}
+        onChange={(e) => setReflection(e.target.value)}
+        placeholder="Write a sentence, a paragraph, or nothing at all. Whatever feels honest."
+        rows={5}
+        style={{
+          fontFamily: T.fonts.body, fontSize: 15, lineHeight: 1.7,
+          background: T.warmWhite, border: `1px solid rgba(220,215,200,0.4)`,
+          color: T.warmCharcoal, padding: "16px 18px", width: "100%",
+          outline: "none", boxSizing: "border-box", borderRadius: 3,
+          transition: "border-color 0.3s ease", resize: "vertical", minHeight: 120,
+        }}
+        onFocus={(e) => { e.target.style.borderColor = T.accent; }}
+        onBlur={(e) => { e.target.style.borderColor = "rgba(220,215,200,0.4)"; }}
+      />
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16, marginTop: 36 }}>
+        <button onClick={() => onComplete(reflection.trim())} style={{ fontFamily: T.fonts.display, fontSize: 15, letterSpacing: "0.12em", textTransform: "uppercase", background: T.accent, border: "none", color: "#FFFFFF", padding: "15px 48px", cursor: "pointer", transition: "all 0.3s ease", borderRadius: 2 }}
+          onMouseEnter={(e) => { e.target.style.background = T.accentBright; }}
+          onMouseLeave={(e) => { e.target.style.background = T.accent; }}>
+          Continue
+        </button>
+        <button onClick={() => onComplete("")} style={{ fontFamily: T.fonts.body, fontSize: 13, color: T.textDim, background: "transparent", border: "none", cursor: "pointer", letterSpacing: "0.06em", padding: "8px 16px", transition: "color 0.3s ease" }}
+          onMouseEnter={(e) => { e.target.style.color = T.accent; }}
+          onMouseLeave={(e) => { e.target.style.color = T.textDim; }}>
+          Skip this question
+        </button>
       </div>
     </div>
   );
@@ -605,8 +655,7 @@ function ResultsScreen({ scores, archetype, band, userName }) {
     <div style={{ opacity: vis ? 1 : 0, transition: "opacity 1s ease", background: R.bg, minHeight: "100vh", padding: "48px 24px 80px", maxWidth: 620, margin: "0 auto" }}>
       {/* ── Header ── */}
       <div style={{ textAlign: "center", marginBottom: 48 }}>
-        <p style={{ fontFamily: T.fonts.display, fontSize: 24, fontWeight: 400, color: R.text, letterSpacing: "0.3em", marginBottom: 8 }}>ELIA</p>
-        <p style={{ fontFamily: T.fonts.display, fontSize: 12, color: R.accent, letterSpacing: "0.3em", textTransform: "uppercase", marginBottom: 32, fontWeight: 300 }}>Atelier</p>
+        <img src="/elia-atelier-logo-light-small.png" alt="ELIA Atelier" style={{ width: "auto", height: "auto", maxWidth: 140, marginBottom: 24, objectFit: "contain" }} />
         <p style={{ fontFamily: T.fonts.ui, fontSize: 11, color: R.accent, letterSpacing: "0.18em", textTransform: "uppercase", marginBottom: 12 }}>The Reading</p>
         {firstName && (
           <p style={{ fontFamily: T.fonts.body, fontSize: 15, color: R.textMuted, fontStyle: "italic" }}>for {firstName}</p>
@@ -744,7 +793,7 @@ function ResultsScreen({ scores, archetype, band, userName }) {
 
         {/* Signature */}
         <div style={{ marginTop: 56, paddingTop: 32, borderTop: `1px solid ${R.border}`, textAlign: "center" }}>
-          <p style={{ fontFamily: T.fonts.display, fontSize: 18, color: R.text, fontStyle: "italic", marginBottom: 6 }}>— Alexandre Olive</p>
+          <p style={{ fontFamily: T.fonts.display, fontSize: 18, color: R.text, fontStyle: "italic", marginBottom: 6 }}>Alexandre Olive</p>
           <p style={{ fontFamily: T.fonts.body, fontSize: 14, color: R.textMuted, marginBottom: 12 }}>Founder, ELIA Atelier</p>
           <p style={{ fontFamily: T.fonts.body, fontSize: 13, color: R.textDim }}>
             alexandre@eliaatelier.ch  ·  eliaatelier.ch
@@ -792,6 +841,7 @@ export default function EliaReading() {
   const [archetype, setArchetype] = useState(null);
   const [band, setBand] = useState(null);
   const [userName, setUserName] = useState("");
+  const [reflection, setReflection] = useState("");
 
   const handleAnswer = useCallback((opt) => {
     const newAnswers = [...answers, opt];
@@ -799,9 +849,15 @@ export default function EliaReading() {
     if (qIndex < QUESTIONS.length - 1) {
       setQIndex(qIndex + 1);
     } else {
-      setScreen("breathing");
+      // After Q15, go to the optional open-ended reflection
+      setScreen("reflection");
     }
   }, [answers, qIndex]);
+
+  const handleReflectionComplete = useCallback((text) => {
+    setReflection(text);
+    setScreen("breathing");
+  }, []);
 
   const handleBack = useCallback(() => {
     if (qIndex > 0) {
@@ -835,6 +891,7 @@ export default function EliaReading() {
           archetype: computedArchetype,
           band: computedBand,
           scores: computedScores,
+          reflection,
         }),
       }).catch(() => {});
     } catch (err) {
@@ -843,7 +900,7 @@ export default function EliaReading() {
 
     setScreen("results");
     window.scrollTo(0, 0);
-  }, [answers]);
+  }, [answers, reflection]);
 
   const isResults = screen === "results" && scores && archetype && band;
 
@@ -872,6 +929,7 @@ export default function EliaReading() {
             onBack={handleBack}
           />
         )}
+        {screen === "reflection" && <ReflectionScreen onComplete={handleReflectionComplete} />}
         {screen === "breathing" && <BreathingScreen onComplete={() => setScreen("email")} />}
         {screen === "email" && <EmailScreen onSubmit={handleEmail} />}
         {isResults && (
